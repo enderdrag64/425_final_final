@@ -1,0 +1,171 @@
+@charset "UTF-8";
+body {
+	background-color: black;
+	background-image: url(images/background.jpg);
+	font-family: Garamond; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 160%;
+	max-width: 900px;
+	margin: auto;
+}
+a {
+	color: white
+}
+a:hover {
+
+}
+h1 {
+	color: #38ff00
+}
+h1:hover {
+
+}
+h2 {
+	color: #a5ff9d
+}
+h2:hover {
+
+}
+p {
+	color: white
+}
+th, tr, td {
+	text-align: left !important;
+}
+th {
+	color: #744704
+}
+tr:nth-child(even) {
+	color: #c68423
+}
+tr {
+	color: #744704
+}
+tr:hover {
+	color: black
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.3); ;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	text-align: center;
+	padding: 14px;
+}
+.active {
+	background-color: #a77122;
+}
+li a, .dropbtn {
+	display: inline-block;
+	color: #44ff00;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: #764e14;
+}
+li.dropdown {
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #cb9f5e;
+	min-width: 180px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	color: #ffb953;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: #764e14;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 45px;
+}
+.subtitle{
+	color: #ffb953;
+	font-weight: bold;
+	font-style: italic;
+}
+.emptydollar{
+	color: #d9d184;
+}
+.gallery-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
+	grid-row-gap: 20px ;
+	justify-items: center;
+	align-items: start;
+	justify-content: space-between;
+}
+				
+.gallery-item {
+	width: 200px; /*should match the width of your images + width of border (if any) */
+	text-align: center;
+}    
+/* css for styling the p/caption under the image */      
+.gallery-item p {
+	margin: .25em 0;
+	line-height: 135%;
+}
+
+.about-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
+	column-gap: 60px ;
+	justify-items: center;
+	align-items: start;
+	justify-content: space-between;
+}
+				
+.about-item {
+	width: 200px; /*should match the width of your images + width of border (if any) */
+	text-align: center;
+}    
+/* css for styling the p/caption under the image */      
+.about-item-p {
+	margin: .25em 0;
+	font-size: 25px
+	line-height: 135%;
+}
+
+.OSTtitle {
+	color: blue;
+}
+
+.Cuetitle {
+	color: red;
+}
+
+.vertical-content-grid {
+    display: grid;
+    grid-template-columns: 70% 30%; 
+    gap: 25px; 
+}
+
+.large-reviews {
+    padding: 20px; 
+}
+
+.mini-reviews {
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.3); 
+}
