@@ -234,10 +234,28 @@ li.dropdown {
 	top: 128px;
 	left: 655px;
 }
+#worldmap-item-redlegend {
+	top: 295px;
+	left: 600px;
+}
+#worldmap-item-greenlegend {
+	top: 265px;
+	left: 600px;
+}
 
-.icon-blue {color:#21f356;}
-.icon-blue span {display: none;}
-.icon-blue:hover span {display: inline;}
-.icon-blue:hover {color:#3ba8ff;}
+.icon-green {color:#21f356;}
+.icon-green span {display: none;}
+.icon-green:hover span {display: inline;}
+.icon-green:hover {color:#3ba8ff;}
+
+.icon-red {color:#f32121;}
+.icon-red span {display: none;}
+.icon-red:hover span {display: inline;}
+.icon-red:hover {color:#3ba8ff;}
+
+
+
+.icon-green-legend {color:#21f356;}
+.icon-red-legend {color:#f32121;}
 	
-.worldmap-item span {font-size: 10px; color: #dc3131; float: right; background: #0000008c;; padding: 3px; margin-left: 3px;}
+.worldmap-item span {font-size: 10px; color: #3ba8ff; float: right; background: #0000008c;; padding: 3px; margin-left: 3px;}
