@@ -147,7 +147,7 @@ li.dropdown {
 }
 
 .OSTtitle {
-	color: #7e7eff;
+	color: #7bd1ff;
 }
 
 .Cuetitle {
@@ -167,4 +167,9 @@ li.dropdown {
 .mini-reviews {
     padding: 20px; 
     background-color: rgba(255, 255, 255, 0.3); 
+}
+
+.OSTcover {
+	max-width: 100%; 
+	height: auto;
 }
