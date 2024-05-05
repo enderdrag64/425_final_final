@@ -185,3 +185,59 @@ li.dropdown {
 .copyright {
 	
 }
+
+.worldmap {
+	width: 750px;
+	height: 375px;
+	border: solid #5a5a5a 1px;
+	background: url(images/us+europe.svg) no-repeat;
+	background-size: 750px 375px;
+	padding: 0;
+	margin: 0; /* adjust as needed */
+	position: relative; /* needed for positioning the icons */
+}
+
+.worldmap-item {
+	font-size: 24px;  /* controls the size of the icon */
+	position: absolute;
+}
+
+#worldmap-item-anvil {
+	top: 110px;
+	left: 580px;
+}
+
+#worldmap-item-abbeyroad {
+	top: 111px;
+	left: 581px;
+}
+
+#worldmap-item-jkms {
+	top: 188px;
+	left: 101px;
+}
+#worldmap-item-skywalkersound {
+	top: 168px;
+	left: 97px;
+}
+
+#worldmap-item-sonyscoring {
+	top: 186px;
+	left: 99px;
+}
+
+#worldmap-item-smecky {
+	top: 115px;
+	left: 636px;
+}
+#worldmap-item-rotenbiller {
+	top: 128px;
+	left: 655px;
+}
+
+.icon-blue {color:#21f356;}
+.icon-blue span {display: none;}
+.icon-blue:hover span {display: inline;}
+.icon-blue:hover {color:#3ba8ff;}
+	
+.worldmap-item span {font-size: 10px; color: #dc3131; float: right; background: #00000052; padding: 3px; margin-left: 3px;}
