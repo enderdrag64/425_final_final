@@ -39,7 +39,7 @@ th, tr, td {
 	text-align: left !important;
 }
 th {
-	color: #744704
+	color: #71d468
 }
 tr:nth-child(even) {
 	color: #c68423
@@ -156,11 +156,11 @@ li.dropdown {
 }
 
 .OSTtitle {
-	color: blue;
+	color: ##7e7eff;
 }
 
 .Cuetitle {
-	color: red;
+	color: #ff4949;
 }
 
 .vertical-content-grid {
