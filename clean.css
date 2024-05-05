@@ -19,13 +19,15 @@ h1:hover {
 
 }
 h2 {
-	color: #a5ff9d
+	color: #a5ff9d;
+	margin: 0
 }
 h2:hover {
 
 }
 h3 {
-	color: #a5ff9d
+	color: #a5ff9d;
+	margin-top: 0
 }
 h2:hover {
 
