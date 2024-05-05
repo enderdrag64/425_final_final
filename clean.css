@@ -68,7 +68,7 @@ li a, .dropbtn {
 	text-decoration: none;
 }
 li a:hover, .dropdown:hover .dropbtn {
-	background-color: #764e14;
+	background-color: #02020257;
 }
 li.dropdown {
 	display: inline-block;
