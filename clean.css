@@ -41,15 +41,6 @@ th, tr, td {
 th {
 	color: #71d468
 }
-tr:nth-child(even) {
-	color: #c68423
-}
-tr {
-	color: #744704
-}
-tr:hover {
-	color: black
-}
 
 ul {
 	list-style-type: none;
