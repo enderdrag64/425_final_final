@@ -189,6 +189,14 @@ li.dropdown {
 	
 }
 
+.author {
+	margin-bottom: 0;
+}
+
+.visessay-img {
+	max-width: 100%;
+}
+
 .worldmap {
 	width: 750px;
 	height: 375px;
